@@ -1,15 +1,18 @@
 <template lang="pug">
 .home
   HeaderHome
+  BodyHome
 </template>
 
 <script>
 import HeaderHome from "@/components/HeaderHome.vue";
+import BodyHome from "@/components/BodyHome.vue";
 
 export default {
   name: "Home",
   components: {
     HeaderHome,
+    BodyHome,
   },
 };
 </script>
